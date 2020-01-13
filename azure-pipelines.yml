@@ -14,8 +14,10 @@ steps:
   inputs:
     filename: 'power.bat'
     arguments: '3 4'
+  displayName: "power bat"
 
 - task: BatchScript@1
   inputs:
     filename: 'calc.bat'
     arguments: '3 84'
+  displayName: "calc bat"
